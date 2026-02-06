@@ -18,3 +18,8 @@ node_modules/
 
 # Python
 __pycache__/
+
+# Agent / IDE config (local)
+.agents/
+.claude/
+.cursor/
