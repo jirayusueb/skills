@@ -1,6 +1,13 @@
 ---
 name: functional-programming-ts
 description: Functional programming in TypeScript: pure functions, immutability, composition, pipe/compose, Option/Result. Use when: (1) User asks for functional style or FP concepts, (2) Refactoring to pure functions or immutable data, (3) User mentions pipe, compose, currying, functor, monad, Option, Either, (4) Reducing side effects or making code more testable.
+author: Jirayu Suebwongphanudet
+version: 1.0.0
+triggers:
+  - functional programming
+  - pure functions / immutability
+  - pipe / compose / currying
+  - Option / Either / Result
 ---
 
 # Functional Programming (TypeScript)
