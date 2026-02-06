@@ -8,10 +8,10 @@ Use the bundled skills so an AI assistant can recommend and implement these patt
 
 ```bash
 # Design patterns (GoF)
-npx skills add https://github.com/jirayusueb/skills --skill design-patterns-ts
+npx skills add jirayusueb/skills@design-patterns-ts
 
 # Functional programming in TypeScript
-npx skills add https://github.com/jirayusueb/skills --skill functional-programming-ts
+npx skills add jirayusueb/skills@functional-programming-ts
 ```
 
 ## What are design patterns?
@@ -40,39 +40,39 @@ Design patterns are **solutions to recurring problems**—guidelines for tacklin
 
 | Pattern                                                                                 | Description                                               |
 | --------------------------------------------------------------------------------------- | --------------------------------------------------------- |
-| [Simple Factory](skills/design-patterns-ts/references/creational/simple-factory.md)     | Generate an instance without exposing instantiation logic |
-| [Factory Method](skills/design-patterns-ts/references/creational/factory-method.md)     | Delegate instantiation to subclasses                      |
-| [Abstract Factory](skills/design-patterns-ts/references/creational/abstract-factory.md) | Factory of related factories                              |
-| [Builder](skills/design-patterns-ts/references/creational/builder.md)                   | Step-by-step object construction                          |
-| [Prototype](skills/design-patterns-ts/references/creational/prototype.md)               | Create objects by cloning                                 |
-| [Singleton](skills/design-patterns-ts/references/creational/singleton.md)               | Single instance of a class                                |
+| [Simple Factory](design-patterns-ts/references/creational/simple-factory.md)     | Generate an instance without exposing instantiation logic |
+| [Factory Method](design-patterns-ts/references/creational/factory-method.md)     | Delegate instantiation to subclasses                      |
+| [Abstract Factory](design-patterns-ts/references/creational/abstract-factory.md) | Factory of related factories                              |
+| [Builder](design-patterns-ts/references/creational/builder.md)                   | Step-by-step object construction                          |
+| [Prototype](design-patterns-ts/references/creational/prototype.md)               | Create objects by cloning                                 |
+| [Singleton](design-patterns-ts/references/creational/singleton.md)               | Single instance of a class                                |
 
 ### Structural
 
 | Pattern                                                                   | Description                                   |
 | ------------------------------------------------------------------------- | --------------------------------------------- |
-| [Adapter](skills/design-patterns-ts/references/structural/adapter.md)     | Make incompatible interfaces work together    |
-| [Bridge](skills/design-patterns-ts/references/structural/bridge.md)       | Decouple abstraction from implementation      |
-| [Composite](skills/design-patterns-ts/references/structural/composite.md) | Treat individuals and compositions uniformly  |
-| [Decorator](skills/design-patterns-ts/references/structural/decorator.md) | Add behavior at runtime by wrapping           |
-| [Facade](skills/design-patterns-ts/references/structural/facade.md)       | Simple interface to a complex subsystem       |
-| [Flyweight](skills/design-patterns-ts/references/structural/flyweight.md) | Share state across many similar objects       |
-| [Proxy](skills/design-patterns-ts/references/structural/proxy.md)         | Represent or control access to another object |
+| [Adapter](design-patterns-ts/references/structural/adapter.md)     | Make incompatible interfaces work together    |
+| [Bridge](design-patterns-ts/references/structural/bridge.md)       | Decouple abstraction from implementation      |
+| [Composite](design-patterns-ts/references/structural/composite.md) | Treat individuals and compositions uniformly  |
+| [Decorator](design-patterns-ts/references/structural/decorator.md) | Add behavior at runtime by wrapping           |
+| [Facade](design-patterns-ts/references/structural/facade.md)       | Simple interface to a complex subsystem       |
+| [Flyweight](design-patterns-ts/references/structural/flyweight.md) | Share state across many similar objects       |
+| [Proxy](design-patterns-ts/references/structural/proxy.md)         | Represent or control access to another object |
 
 ### Behavioral
 
 | Pattern                                                                                               | Description                                          |
 | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------- |
-| [Chain of Responsibility](skills/design-patterns-ts/references/behavioral/chain-of-responsibility.md) | Pass request along a chain of handlers               |
-| [Command](skills/design-patterns-ts/references/behavioral/command.md)                                 | Encapsulate actions as objects                       |
-| [Iterator](skills/design-patterns-ts/references/behavioral/iterator.md)                               | Traverse a collection without exposing structure     |
-| [Mediator](skills/design-patterns-ts/references/behavioral/mediator.md)                               | Centralize communication between objects             |
-| [Memento](skills/design-patterns-ts/references/behavioral/memento.md)                                 | Capture and restore object state                     |
-| [Observer](skills/design-patterns-ts/references/behavioral/observer.md)                               | Notify dependents when state changes                 |
-| [Visitor](skills/design-patterns-ts/references/behavioral/visitor.md)                                 | Add operations without changing structure            |
-| [Strategy](skills/design-patterns-ts/references/behavioral/strategy.md)                               | Swap algorithms at runtime                           |
-| [State](skills/design-patterns-ts/references/behavioral/state.md)                                     | Change behavior when state changes                   |
-| [Template Method](skills/design-patterns-ts/references/behavioral/template-method.md)                 | Algorithm skeleton with steps deferred to subclasses |
+| [Chain of Responsibility](design-patterns-ts/references/behavioral/chain-of-responsibility.md) | Pass request along a chain of handlers               |
+| [Command](design-patterns-ts/references/behavioral/command.md)                                 | Encapsulate actions as objects                       |
+| [Iterator](design-patterns-ts/references/behavioral/iterator.md)                               | Traverse a collection without exposing structure     |
+| [Mediator](design-patterns-ts/references/behavioral/mediator.md)                               | Centralize communication between objects             |
+| [Memento](design-patterns-ts/references/behavioral/memento.md)                                 | Capture and restore object state                     |
+| [Observer](design-patterns-ts/references/behavioral/observer.md)                               | Notify dependents when state changes                 |
+| [Visitor](design-patterns-ts/references/behavioral/visitor.md)                                 | Add operations without changing structure            |
+| [Strategy](design-patterns-ts/references/behavioral/strategy.md)                               | Swap algorithms at runtime                           |
+| [State](design-patterns-ts/references/behavioral/state.md)                                     | Change behavior when state changes                   |
+| [Template Method](design-patterns-ts/references/behavioral/template-method.md)                 | Algorithm skeleton with steps deferred to subclasses |
 
 ## License
 

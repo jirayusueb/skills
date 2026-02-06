@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "pluginRoot": "./skills"
+    "pluginRoot": "."
   },
   "plugins": [
     {
       "name": "design-patterns-ts",
       "source": "design-patterns-ts",
-      "skills": ["./skills/design-patterns-ts"]
+      "skills": ["./design-patterns-ts"]
     },
     {
       "name": "functional-programming-ts",
       "source": "functional-programming-ts",
-      "skills": ["./skills/functional-programming-ts"]
+      "skills": ["./functional-programming-ts"]
     }
   ]
 }
