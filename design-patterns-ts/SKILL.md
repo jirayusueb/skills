@@ -1,6 +1,6 @@
 ---
 name: design-patterns-ts
-description: TypeScript design patterns implementation guide. Use when: (1) User asks about design patterns, (2) Code needs restructuring for maintainability, (3) Implementing factories, observers, strategies, decorators, (4) User mentions pattern names like "singleton", "factory", "adapter", "observer", etc.
+description: TypeScript design patterns (GoF). Use when: design patterns, factories, singleton, adapter, observer, or code restructuring.
 author: Jirayu Suebwongphanudet
 version: 1.0.0
 triggers:
