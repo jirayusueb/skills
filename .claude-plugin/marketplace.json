@@ -1,32 +1,17 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "design-patterns-for-humans",
-  "version": "1.0.0",
-  "description": "TypeScript design patterns and functional programming skills. GoF patterns (creational, structural, behavioral) and FP concepts (pure functions, composition, Option/Result).",
-  "owner": {
-    "name": "Jirayu Suebwongphanudet",
-    "email": ""
+  "metadata": {
+    "pluginRoot": "./skills"
   },
   "plugins": [
     {
       "name": "design-patterns-ts",
-      "description": "TypeScript design patterns implementation guide. Factories, singleton, adapter, observer, strategy, and 20+ patterns with examples.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Jirayu Suebwongphanudet"
-      },
-      "source": "./skills/design-patterns-ts",
-      "category": "development"
+      "source": "design-patterns-ts",
+      "skills": ["./skills/design-patterns-ts"]
     },
     {
       "name": "functional-programming-ts",
-      "description": "Functional programming in TypeScript: pure functions, immutability, pipe/compose, Option/Result, recursion.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Jirayu Suebwongphanudet"
-      },
-      "source": "./skills/functional-programming-ts",
-      "category": "development"
+      "source": "functional-programming-ts",
+      "skills": ["./skills/functional-programming-ts"]
     }
   ]
 }
