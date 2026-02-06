@@ -8,10 +8,10 @@ Use the bundled skills so an AI assistant can recommend and implement these patt
 
 ```bash
 # Design patterns (GoF)
-npx skills add https://github.com/jirayusub/skills --skill design-patterns-ts
+npx skills add https://github.com/jirayusueb/skills --skill design-patterns-ts
 
 # Functional programming in TypeScript
-npx skills add https://github.com/jirayusub/skills --skill functional-programming-ts
+npx skills add https://github.com/jirayusueb/skills --skill functional-programming-ts
 ```
 
 ## What are design patterns?
